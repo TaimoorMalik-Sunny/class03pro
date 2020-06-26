@@ -7,7 +7,7 @@ function App() {
     <div>
     <Daystatus daystatuspart1="Hot2" daystatuspart2="Rush"/>
     <hr/>
-    <Daystatus daystatuspart1="Cool" daystatuspart2="Awsome"/>
+    <Daystatus daystatuspart1="Cool2" daystatuspart2="Awsome"/>
     </div>
   );
 }
