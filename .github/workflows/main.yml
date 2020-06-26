@@ -7,8 +7,7 @@ name: CI
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
+
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -39,4 +38,4 @@ jobs:
       run: npm install -g surge
     
     - name: Deploying on surge
-      run: surge ./build http://class03-asg.surge.sh/ ..token ${{ secrets.SURGE_TOKEN }} 
+      run: surge ./build class03-asg.surge.sh/ ..token ${{ secrets.SURGE_TOKEN }} 
