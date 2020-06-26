@@ -5,7 +5,7 @@ import Daystatus from './Daystatus';
 function App() {
   return (
     <div>
-    <Daystatus daystatuspart1="Hot" daystatuspart2="Rush"/>
+    <Daystatus daystatuspart1="Hot2" daystatuspart2="Rush"/>
     <hr/>
     <Daystatus daystatuspart1="Cool" daystatuspart2="Awsome"/>
     </div>
