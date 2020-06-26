@@ -1,24 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Daystatus from './Daystatus';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Daystatus daystatuspart1="Hot" daystatuspart2="Rush"/>
+    <hr/>
+    <Daystatus daystatuspart1="Cool" daystatuspart2="Awsome"/>
     </div>
   );
 }
